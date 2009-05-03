@@ -8,7 +8,7 @@ package uk.co.khanate.games.hexagone;
  *
  */
 public class Hex {
-	public enum hexTypes { X, A, B };
+	static public enum hexTypes { X, A, B };
 	private hexTypes hexType;
 	private int[] location;
 	private int tileCount;

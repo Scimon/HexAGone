@@ -89,6 +89,26 @@ public class HexGridTest {
 		assertEquals( false, hexgrid.hasWon( Hex.hexTypes.B ) );		
 	}	
 	
+	@Test
+	public final void testHexGrid6() {
+		HexGrid hexgrid = new HexGrid(2,2);
+
+		boolean excepted = false;
+		try {
+			hexgrid.possibleMoves( Hex.hexTypes.X );
+		} catch ( RuntimeException ex) {
+			excepted = true;
+		}
+		assertTrue( excepted );
+		int[][] poss = hexgrid.possibleMoves( Hex.hexTypes.A );
+		assertArrayEquals( new int[] { 0,0 }, poss[0] );
+		hexgrid.addTile(0, 0, Hex.hexTypes.B );
+		hexgrid.addTile(0, 1, Hex.hexTypes.B );
+		hexgrid.addTile(1, 0, Hex.hexTypes.B );
+		poss = hexgrid.possibleMoves( Hex.hexTypes.A );
+		assertArrayEquals( new int[] { 1,1 }, poss[0] );
+		
+	}
 	
 }
 

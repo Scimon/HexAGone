@@ -9,8 +9,8 @@ public class HexGrid {
 	private Hex[][] grid; 
 	private int sizeX;
 	private int sizeY;
-	private int[][] options = { { -1, -1 }, { -1,  0 }, {  0,  1 },
-                                {  1,  1 }, {  1,  0 }, {  0, -1 } };
+	static private int[][] options = { { -1, -1 }, { -1,  0 }, {  0,  1 },
+                                       {  1,  1 }, {  1,  0 }, {  0, -1 } };
 	
 	public HexGrid( int x, int y ) {
 		sizeX = x;
@@ -81,12 +81,10 @@ public class HexGrid {
 	}
 
 	public int getTileCount(int x, int y) {
-		// TODO Auto-generated method stub
 		return grid[x][y].tileCount();
 	}
 
 	public boolean hasWon(hexTypes t) {
-		// TODO Auto-generated method stub
 		if ( t == hexTypes.X ) {
 			throw new IllegalArgumentException();
 		}
@@ -99,5 +97,36 @@ public class HexGrid {
 		}
 		
 		return true;
+	}
+
+	private int typeCount(hexTypes t) {
+		int count = 0;
+		for ( int x = 0; x < sizeX; x++ ) {
+			for ( int y = 0; y < sizeY; y++ ) {
+				if( grid[x][y].getType() == t ) {
+					count++;
+				}
+			}
+		}		
+		return count;
+	}
+	
+	public int[][] possibleMoves(hexTypes t) {
+		if ( t == hexTypes.X ) {
+			throw new IllegalArgumentException();
+		}
+		int[][] results = new int[ typeCount(t) + typeCount(Hex.hexTypes.X)][];
+		int counter = 0;
+		for ( int x = 0; x < sizeX; x++ ) {
+			for ( int y = 0; y < sizeY; y++ ) {
+				Hex.hexTypes h = grid[x][y].getType();
+				if( h == t || h == Hex.hexTypes.X ) {
+					results[counter] = new int[] { x,y };
+					counter++;
+				}
+			}
+		}
+		
+		return results;
 	}
 }
