@@ -3,8 +3,7 @@
  */
 package uk.co.khanate.games.hexagone;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 
 import org.junit.After;
 import org.junit.Before;
@@ -15,7 +14,6 @@ import org.junit.Test;
  *
  */
 public class HexGridTest {
-
 	/**
 	 * @throws java.lang.Exception
 	 */
@@ -60,7 +58,7 @@ public class HexGridTest {
 	// Test Explosion 0x0 has 3 sides.
 	@Test
 	public final void testHexGrid4() {
-		HexGrid hexgrid = new HexGrid(2,2);
+		HexGrid hexgrid = new HexGrid(3,3);
 		hexgrid.addTile(0,0,Hex.hexTypes.A);
 		hexgrid.addTile(0,0,Hex.hexTypes.A);
 		hexgrid.addTile(0,0,Hex.hexTypes.A);
@@ -68,7 +66,23 @@ public class HexGridTest {
 		assertEquals( 1, hexgrid.getTileCount(0, 0));	
 		assertEquals( Hex.hexTypes.A ,hexgrid.getHexType(1,0) );
 		assertEquals( 2, hexgrid.getTileCount(1, 0));
+		assertEquals( Hex.hexTypes.X ,hexgrid.getHexType(2,2) );
+		assertEquals( 1, hexgrid.getTileCount(2, 2));
 	}
+	
+	@Test
+	public final void testHexGrid5() {
+		HexGrid hexgrid = new HexGrid(2,2);
+		assertEquals( false, hexgrid.hasWon( Hex.hexTypes.A ) );
+		assertEquals( false, hexgrid.hasWon( Hex.hexTypes.B ) );	
+		boolean excepted = false;
+		try {
+			hexgrid.hasWon( Hex.hexTypes.X );
+		} catch ( RuntimeException ex) {
+			excepted = true;
+		}
+		assertTrue( excepted );
+	}	
 	
 	
 }

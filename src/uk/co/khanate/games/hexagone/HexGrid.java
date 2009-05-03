@@ -48,6 +48,7 @@ public class HexGrid {
 			int sy = y + options[i][1];
 			if ( sx < sizeX && sy < sizeY && sx >= 0 && sy >= 0 ) {
 				sides[counter] = new int[] { sx, sy };
+				counter++;
 			}
 		}
 		return sides; 
@@ -82,5 +83,10 @@ public class HexGrid {
 	public int getTileCount(int x, int y) {
 		// TODO Auto-generated method stub
 		return grid[x][y].tileCount();
+	}
+
+	public boolean hasWon(hexTypes a) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 }
