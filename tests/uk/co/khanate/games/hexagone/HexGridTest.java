@@ -82,6 +82,11 @@ public class HexGridTest {
 			excepted = true;
 		}
 		assertTrue( excepted );
+		hexgrid.addTile(0, 0, Hex.hexTypes.A);
+		hexgrid.addTile(0, 0, Hex.hexTypes.A);
+		hexgrid.addTile(0, 0, Hex.hexTypes.A);
+		assertEquals( true, hexgrid.hasWon( Hex.hexTypes.A ) );		
+		assertEquals( false, hexgrid.hasWon( Hex.hexTypes.B ) );		
 	}	
 	
 	

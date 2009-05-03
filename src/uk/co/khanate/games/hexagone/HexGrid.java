@@ -85,8 +85,19 @@ public class HexGrid {
 		return grid[x][y].tileCount();
 	}
 
-	public boolean hasWon(hexTypes a) {
+	public boolean hasWon(hexTypes t) {
 		// TODO Auto-generated method stub
-		return false;
+		if ( t == hexTypes.X ) {
+			throw new IllegalArgumentException();
+		}
+		for ( int x = 0; x < sizeX; x++ ) {
+			for ( int y = 0; y < sizeY; y++ ) {
+				if( grid[x][y].getType() != t ) {
+					return false;
+				}
+			}
+		}
+		
+		return true;
 	}
 }
