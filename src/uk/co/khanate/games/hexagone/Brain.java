@@ -9,6 +9,6 @@ public class Brain {
 	
 	public int[] makeMove( HexGrid g ) {
 		int[][] possibles = g.possibleMoves(myType);
-		return possibles[(int) Math.random() * possibles.length];
+		return possibles[(int) Math.random() *  possibles.length];
 	}
 }
