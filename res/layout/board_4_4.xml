@@ -11,9 +11,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -24,6 +26,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
   </LinearLayout>
@@ -33,9 +36,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -46,6 +51,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -56,6 +62,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
   </LinearLayout>
@@ -65,9 +72,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -78,6 +87,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -88,6 +98,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -98,6 +109,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
   </LinearLayout>
@@ -107,9 +119,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout 
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.1"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -120,6 +134,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -130,6 +145,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -140,6 +156,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -150,6 +167,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.1"/>
   </LinearLayout>
@@ -159,9 +177,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -172,6 +192,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -182,6 +203,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -192,6 +214,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
   </LinearLayout>    
@@ -201,9 +224,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -214,6 +239,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -224,6 +250,7 @@
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
   </LinearLayout>    
@@ -233,9 +260,11 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
@@ -246,6 +275,7 @@
         android:id="@+id/cell403"/>
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
   </LinearLayout>    

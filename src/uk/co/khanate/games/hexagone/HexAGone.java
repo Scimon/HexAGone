@@ -8,6 +8,6 @@ public class HexAGone extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.board_3_3);
+        setContentView(R.layout.board_5_5);
     }
 }

@@ -10,22 +10,23 @@
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0400" 
+        android:id="@+id/cell540" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
   </LinearLayout>
@@ -34,32 +35,34 @@
     android:gravity="center_vertical"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0300" 
+        android:id="@+id/cell530" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0401" 
+        android:id="@+id/cell541" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
   </LinearLayout>
@@ -68,42 +71,45 @@
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0200" 
+        android:id="@+id/cell520" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0301" 
+        android:id="@+id/cell531" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0402" 
+        android:id="@+id/cell542" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
   </LinearLayout>
@@ -112,52 +118,175 @@
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.1"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0100" 
+        android:id="@+id/cell510" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0201" 
+        android:id="@+id/cell521" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0302" 
+        android:id="@+id/cell532" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0403" 
+        android:id="@+id/cell543" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_weight="0.1"/>
+  </LinearLayout>
+  <LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell500" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell511" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell522" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell533" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell544" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+  </LinearLayout>
+  <LinearLayout
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="fill_parent"
+      android:layout_weight="0.1"/>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell501" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell512" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell523" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:gravity="center_vertical"
+	  android:layout_weight="0.2">
+      <Button 
+        android:text="1" 
+        android:id="@+id/cell534" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.1"/>
   </LinearLayout>
@@ -167,151 +296,44 @@
     android:layout_height="fill_parent"
     android:orientation="vertical">
     <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0000" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0101" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0202" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0303" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0404" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-  </LinearLayout>
-  <LinearLayout
-    android:gravity="center_vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
-    <TextView 
-      android:text=" "
-      android:layout_width="fill_parent"
-      android:layout_weight="0.1"/>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0001" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0102" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0203" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-      android:layout_width="wrap_content"
-      android:gravity="center_vertical"
-	  android:layout_weight="0.2">
-      <Button 
-        android:text="1" 
-        android:id="@+id/cell0304" 
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content" />
-    </LinearLayout>
-    <TextView 
-      android:text=" "
-      android:layout_width="fill_parent"
-      android:layout_weight="0.1"/>
-  </LinearLayout>
-  <LinearLayout
-    android:gravity="center_vertical"
-    android:layout_width="wrap_content"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
-    <TextView 
-      android:text=" "
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0002" 
+        android:id="@+id/cell502" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0103" 
+        android:id="@+id/cell513" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0204" 
+        android:id="@+id/cell524" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+      android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.2"/>
   </LinearLayout>    
@@ -320,33 +342,34 @@
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0003" 
+        android:id="@+id/cell503" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0104" 
+        android:id="@+id/cell514" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.3"/>
   </LinearLayout>    
@@ -355,29 +378,27 @@
     android:layout_width="wrap_content"
     android:layout_height="fill_parent"
     android:orientation="vertical">
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
     <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="wrap_content"
       android:gravity="center_vertical"
 	  android:layout_weight="0.2">
       <Button 
         android:text="1" 
-        android:id="@+id/cell0004" 
+        android:id="@+id/cell504" 
         android:layout_width="wrap_content" 
         android:layout_height="wrap_content" />
     </LinearLayout>
-    <TextView 
-      android:text=" "
+    <LinearLayout
+	  android:layout_height="wrap_content"
       android:layout_width="fill_parent"
       android:layout_weight="0.4"/>
-  </LinearLayout>    
-    
-    
-    
-  </LinearLayout>
+  </LinearLayout>     
+</LinearLayout>
 
 
   
