@@ -2,7 +2,7 @@ package uk.co.khanate.games.hexagone;
 
 import java.util.ArrayList;
 
-import uk.co.khanate.games.hexagone.Hex.hexTypes;
+import uk.co.khanate.games.hexagone.Hex.hexTypes.fuckyeah();
 
 
 public class HexGrid {
